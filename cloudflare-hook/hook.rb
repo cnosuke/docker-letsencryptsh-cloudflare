@@ -111,6 +111,8 @@ class Main
         LOGGER.info(" + Do nothing...")
       when 'startup_hook'
         LOGGER.info(" + Do nothing...")
+      when 'exit_hook'
+        LOGGER.info(" + Do nothing...")
       else
         LOGGER.error("ERROR: Method not found.")
         exit 1
