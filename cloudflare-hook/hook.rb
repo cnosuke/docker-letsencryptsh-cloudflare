@@ -109,6 +109,8 @@ class Main
         deploy_cert(args)
       when 'unchanged_cert'
         LOGGER.info(" + Do nothing...")
+      when 'startup_hook'
+        LOGGER.info(" + Do nothing...")
       else
         LOGGER.error("ERROR: Method not found.")
         exit 1
